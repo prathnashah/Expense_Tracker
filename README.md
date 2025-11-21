@@ -1,6 +1,3 @@
-# Expense_Tracker
-The Expense Tracker is a full-stack web application built using Flask, SQLite, and TailwindCSS, designed to help users record, filter, analyze, and visualize their daily spending. This project focuses on simplicity, clean UI, and data-driven insights through interactive charts.
-
 📊 Expense Tracker — Flask Web App
 
 A lightweight and visually clean Expense Tracking Web Application built with Flask, SQLite, SQLAlchemy, TailwindCSS, and Chart.js.
@@ -9,23 +6,23 @@ The app allows users to record expenses, filter them, visualize spending pattern
 🚀 Features
 ✅ Add & Manage Expenses
 
-Add expenses with title, amount, category, and date
+- Add expenses with title, amount, category, and date
+  
+- View all expenses in an easy-to-read table
 
-View all expenses in an easy-to-read table
+- Edit or delete any expense
 
-Edit or delete any expense
-
-Real-time success/error alerts using flash() messages
+- Real-time success/error alerts using flash() messages
 
 🔎 Smart Filtering
 
 Users can filter expenses by:
 
-Start date
+- Start date
 
-End date
+- End date
 
-Category
+- Category
 
 Filters can be combined. A reset option quickly clears all filters.
 
@@ -33,32 +30,28 @@ Filters can be combined. A reset option quickly clears all filters.
 
 Two dynamic charts update based on filters:
 
-🥧 Pie Chart — Spending by Category
+🥧 Pie Chart — Spending by Category : Shows how much you spent across categories like Food, Shopping, Transport, etc.
 
-Shows how much you spent across categories like Food, Shopping, Transport, etc.
-
-📅 Bar/Line Chart — Spending Over Time
-
-Visualizes daily spending to reveal patterns and trends.
+📅 Bar/Line Chart — Spending Over Time : Visualizes daily spending to reveal patterns and trends.
 
 🛠 Tech Stack
 Backend
 
-Python
+- Python
 
-Flask
+- Flask
 
-Flask-SQLAlchemy
+- Flask-SQLAlchemy
 
-SQLite
+- SQLite
 
 Frontend
 
-TailwindCSS
+- TailwindCSS
 
-HTML (Jinja2 Templates)
+- HTML (Jinja2 Templates)
 
-Chart.js
+- Chart.js
 
 📁 Project Structure
 /project
