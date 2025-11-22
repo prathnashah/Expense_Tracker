@@ -53,18 +53,6 @@ Frontend
 
 - Chart.js
 
-📁 Project Structure
-/project
-│── app.py
-│── expenses.db
-│── /templates
-│      └── index.html
-│── /static
-│      ├── styles.css
-│      └── scripts.js
-│── requirements.txt
-└── README.md
-
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/yourusername/expense-tracker.git
@@ -82,40 +70,6 @@ pip install -r requirements.txt
 python app.py
 
 
-Visit:
 
-http://127.0.0.1:5000
 
-🗄 Database
-
-The app uses SQLite with SQLAlchemy models:
-
-Each expense has:
-
-id
-
-title
-
-amount
-
-category
-
-date
-
-Database is created automatically on first run.
-
-✨ Future Improvements
-
-User authentication (login/signup)
-
-Monthly budget limits
-
-Export data to CSV
-
-Dark/light theme toggle
-
-Mobile PWA version
-
-📜 License
-
-MIT License — free to use, modify, and distribute.
+se, modify, and distribute.
